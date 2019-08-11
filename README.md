@@ -105,10 +105,10 @@ mutation{
 ```
 
 ### Authenticate a user
-
+```gql
 mutation{
   tokenAuth(username:king, password:"therealest"){
   token
   }
 }
- 
+```
